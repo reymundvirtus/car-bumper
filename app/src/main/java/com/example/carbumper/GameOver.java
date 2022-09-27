@@ -41,6 +41,9 @@ public class GameOver extends AppCompatActivity {
         //setting the values to the textViews
         yourscore.setText(""+sharedPreferencesScore.getInt("score",0));
 
+        // initializing music
+        clickSound = MediaPlayer.create(this, R.raw.click);
+
         clickSound.start();
         // getting the button and setting onClick listener to playAgain
         findViewById(R.id.playAgain).setOnClickListener(v -> startActivity(new Intent(GameOver.this, GameActivity.class)));

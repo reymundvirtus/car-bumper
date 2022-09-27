@@ -226,8 +226,8 @@ public class GameView extends SurfaceView implements Runnable {
             // play the game over sound
             gameOverSound.start();
 
-//            Intent intent = new Intent(getContext(), GameOver.class);
-//            getContext().startActivity(intent);
+            Intent intent = new Intent(getContext(), GameOver.class);
+            getContext().startActivity(intent);
 
             // assigning the scores to the highscore integer array
             for(int i=0;i<4;i++){
@@ -282,7 +282,7 @@ public class GameView extends SurfaceView implements Runnable {
             paint.setColor(Color.WHITE);
             canvas.drawText("Score: " + score, 100, 50, paint);
 
-            // draw game Over when the game is over
+//             draw game Over when the game is over
             if (isGameOver) {
 
                 Intent intent = new Intent(getContext(), GameOver.class);
