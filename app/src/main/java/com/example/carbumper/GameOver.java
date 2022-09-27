@@ -6,7 +6,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.WindowManager;
 import android.widget.TextView;
@@ -15,9 +14,6 @@ public class GameOver extends AppCompatActivity {
 
     TextView yourscore;
     SharedPreferences sharedPreferencesScore;
-
-    // adding music on click
-    static MediaPlayer clickSound;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,10 +37,6 @@ public class GameOver extends AppCompatActivity {
         //setting the values to the textViews
         yourscore.setText(""+sharedPreferencesScore.getInt("score",0));
 
-        // initializing music
-        clickSound = MediaPlayer.create(this, R.raw.click);
-
-        clickSound.start();
         // getting the button and setting onClick listener to playAgain
         findViewById(R.id.playAgain).setOnClickListener(v -> startActivity(new Intent(GameOver.this, GameActivity.class)));
 
