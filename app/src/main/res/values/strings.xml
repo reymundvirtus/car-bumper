@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Car Bumper</string>
+    <string name="play">Play</string>
+    <string name="highscore">High Score</string>
+
+    <string name="gameover">GAME OVER</string>
+    <string name="yourscore">Your Score</string>
+    <string name="playagain">Play Again</string>
+    <string name="exit">Exit</string>
+</resources>
