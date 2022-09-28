@@ -6,6 +6,10 @@ My first game in android using java programming language. Made in Android Studio
 The mechanics of the game is to gather more points or score by bumping to the enemy cars. The game is continue to loop until you hit an ambulance. Hitting an ambulance
 will make the game over. 
 
+## Controls
+
+You need to hold the screen to move the yellow car upward, then release for downward.
+
 ## Game Elements
 
 1. Player
