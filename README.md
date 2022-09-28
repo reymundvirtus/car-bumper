@@ -24,3 +24,5 @@ You need to hold the screen to move the yellow car upward, then release for down
 The main objective is to hit an enemy as many as possible to beat the current high score and to rank in the first place.
 
 ## Car Bumper Gameplay:
+
+![Demo](https://github.com/reymundvirtus/car-bumper/blob/main/app/src/main/res/drawable-v24/car_bumper.gif)
