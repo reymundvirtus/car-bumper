@@ -8,7 +8,7 @@
     android:paddingTop="50dp"
     android:orientation="vertical"
     tools:context=".HighScore"
-    android:background="@drawable/background">
+    android:background="@drawable/gameover_bg">
 
     <TextView
         android:id="@+id/app_name"
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="#E91E63"
+        android:background="#90E91E63"
         android:fontFamily="@font/press_start"
         android:paddingLeft="10dp"
         android:paddingTop="10dp"
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="#E91E63"
+        android:background="#90E91E63"
         android:fontFamily="@font/press_start"
         android:paddingLeft="10dp"
         android:paddingTop="10dp"
